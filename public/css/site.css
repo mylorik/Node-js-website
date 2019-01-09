@@ -1,0 +1,39 @@
+*{
+    color: rgb(48, 48, 48);
+}
+
+h2 {
+    font-family: 'Aladin';
+    color: rgb(20, 11, 83);
+}
+
+.attentionHeader {
+    animation-name: fadeDown;
+    animation-duration: 2s;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.count {
+    list-style: none;
+    padding: 0;
+}
+
+.count li::before {
+    content: "•";
+    color: rgb(20, 11, 83);
+    padding-right: 2%;
+}
+
+#dr404 {
+    width: 80vh;
+}

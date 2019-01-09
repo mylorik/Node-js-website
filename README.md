@@ -2,6 +2,8 @@
 WEB 322 Final version of the website.
 Things have been used:
 - Java Script
+- HTML
+- CSS
 - Node.js
 - Heroku
 - Handlebars js
